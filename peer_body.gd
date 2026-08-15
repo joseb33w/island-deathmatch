@@ -21,6 +21,22 @@ var sync: Node = null
 var dead := false
 
 var _tint: StandardMaterial3D = null
+var _cam_hidden := false
+const CAM_FADE_NEAR := 1.6   # same near-lens treatment enemies get (enemy.gd) — a point-blank peer must not wall the frame
+
+
+## Near-camera hide with the same hysteresis band enemy.gd uses (hide inside the threshold, reveal
+## only after clearing it by 35%) so a peer hovering at the edge doesn't flicker. Hides the AVATAR
+## child only — the collider stays live, so a lens-close peer is still solid and shootable.
+func set_camera_near(cam_dist: float) -> void:
+	if _cam_hidden:
+		if cam_dist > CAM_FADE_NEAR * 1.35:
+			_cam_hidden = false
+	elif cam_dist <= CAM_FADE_NEAR:
+		_cam_hidden = true
+	for c in get_children():
+		if c is Node3D and not (c is CollisionShape3D):
+			(c as Node3D).visible = not _cam_hidden
 
 
 func setup(id: String, ns: Node, layer: int) -> void:

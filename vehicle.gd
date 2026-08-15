@@ -2056,6 +2056,16 @@ func _seat_driver() -> void:
 	else:
 		_seat_y_off = 0.06 - HIP_RATIO * dh   # seated: hips just above the cushion (+0.06 sink)
 		_seated = GPose.sit(d)
+		# CLOSED-CAB CLEARANCE (QA P1: chibi rig torso+head poked through the parametric sedan's
+		# roof). The parametric cab's roof underside sits at y~1.255; a seated driver whose head-top
+		# (cushion + ~0.62*height for a seated torso) can't fit under it takes the hidden-driver
+		# fallback instead of clipping through the sheet metal. Exit restores visibility as usual.
+		if _seated and _seat_marker != null and _visual != null and _visual.name == "CarBody":
+			if _seat_marker.position.y + 0.62 * dh > 1.22:
+				GPose.stand(d)
+				_seated = false
+				d.visible = false
+				_seat_y_off = 0.0
 	if not _seated:
 		if _is_mount:
 			# CONTRACT: a mount's rider is ALWAYS visible — there is no cabin

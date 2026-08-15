@@ -13972,7 +13972,7 @@
      "sound": "death"
     },
     {
-     "toast": "Fragged - respawning..."
+     "toast": "Fragged - respawning... (deaths: {deaths})"
     },
     {
      "respawn": true
@@ -13986,12 +13986,6 @@
    "format": "int",
    "pos": "top_center",
    "label": "FRAGS"
-  },
-  {
-   "bind": "deaths",
-   "format": "int",
-   "pos": "top_right",
-   "label": "DEATHS"
   }
  ],
  "director": {

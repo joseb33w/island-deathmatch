@@ -114,11 +114,12 @@ w["rules"] = [
      "then": [{"shake": 0.25}, {"sound": "hurt"}]},
     {"id": "down", "when": {"event": "player_died"},
      "then": [{"add": "deaths", "value": 1}, {"sound": "death"},
-              {"toast": "Fragged - respawning..."}, {"respawn": True}]},
+              {"toast": "Fragged - respawning... (deaths: {deaths})"}, {"respawn": True}]},
 ]
+# ONE readout: a second top-band counter gets shoved to the bottom edge on narrow portrait
+# (gamefeel P1 - the HUD placer's vertical escape); deaths surface in the death toast instead.
 w["hud"] = [
     {"bind": "kills", "format": "int", "pos": "top_center", "label": "FRAGS"},
-    {"bind": "deaths", "format": "int", "pos": "top_right", "label": "DEATHS"},
 ]
 
 # ---- director: title screen + music (one mode -> one shared room, no map matchmaking split) ----

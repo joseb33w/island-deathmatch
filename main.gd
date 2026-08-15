@@ -141,6 +141,7 @@ var _hero_anim := ""                    # current semantic anim kind (idle/walk/
 var _hero_air_t := 0.0                  # seconds continuously off the floor — coyote buffer so brief bumps/curbs don't flip to the fall (dive) clip
 var _hero_attack_t := 0.0               # remaining melee-attack-clip hold (s)
 var _hero_avatar: Node3D = null         # the attached hero GLB — hidden when the camera collapses onto it
+var _hero_fade_mats: Array = []         # duplicated surface materials on the avatar — near-camera alpha-fade targets
 
 var rpg: RpgState
 var director = null   # OPTIONAL game-director plug-in (res://game_director.gd) — null on games that ship none
@@ -925,10 +926,20 @@ func _process(delta: float) -> void:
 		cam_rig.rotation.y = cam_yaw
 		cam_spring.rotation.x = cam_pitch
 		# SpringArm collapse guard: when a prop/wall squeezes the camera onto the player, the view
-		# renders from INSIDE the hero mesh (a full-screen smear of cape/armor). Hide the avatar
-		# while the camera is that close — standard near-camera treatment.
+		# renders from INSIDE the hero mesh (a full-screen smear of cape/armor). PROGRESSIVE alpha
+		# fade from ~3m down (gamefeel P1: the old binary hide flipped between a full-frame head and
+		# an invisible player). Per-MATERIAL alpha, not GeometryInstance3D.transparency — that
+		# property is a silent no-op in gl_compatibility.
 		if _hero_avatar != null and is_instance_valid(_hero_avatar):
 			var cd := cam.global_position.distance_to(cam_rig.global_position)
+			var fade := clampf(inverse_lerp(3.0, 1.5, cd), 0.0, 1.0)
+			for m: StandardMaterial3D in _hero_fade_mats:
+				if fade <= 0.02:
+					m.transparency = BaseMaterial3D.TRANSPARENCY_DISABLED
+					m.albedo_color.a = 1.0
+				else:
+					m.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
+					m.albedo_color.a = 1.0 - fade
 			_hero_avatar.visible = cd > 1.35
 	# Wave 4: attack timers + the melee swing visual moved HERE from the two physics paths
 	# (which early-return while DRIVING) so a MOUNTED rider's swing still animates/decays and
@@ -1049,6 +1060,12 @@ func _fade_near_camera_enemies() -> void:
 			if bhv != null:
 				bh = float(bhv)
 			e.set_camera_near(cp.distance_to(e.global_position + Vector3(0.0, 0.5 * bh, 0.0)))
+	# OTHER PLAYERS get the same treatment (gamefeel P1: a point-blank peer walled the frame — in a
+	# melee-range deathmatch an opponent pressing the lens is the common case, not the corner case).
+	if netsync != null and is_instance_valid(netsync) and netsync.has_method("peer_bodies"):
+		for pb: Variant in netsync.peer_bodies():
+			if pb != null and is_instance_valid(pb) and (pb as Node).has_method("set_camera_near"):
+				pb.set_camera_near(cp.distance_to((pb as Node3D).global_position + Vector3(0.0, 0.9, 0.0)))
 
 
 func _attack() -> void:
@@ -3307,6 +3324,18 @@ func _attach_hero_model() -> void:
 	node.name = "GogiHeroAvatar"
 	player.add_child(node)
 	_hero_avatar = node
+	# Duplicate every surface material once (textures survive — this is a modulate, never a replace)
+	# so the near-camera fade can drive albedo alpha without mutating shared GLB resources.
+	_hero_fade_mats = []
+	for mi: MeshInstance3D in node.find_children("*", "MeshInstance3D", true, false):
+		if mi.mesh == null:
+			continue
+		for s in range(mi.mesh.get_surface_count()):
+			var base: Material = mi.get_active_material(s)
+			if base is StandardMaterial3D:
+				var dup := (base as StandardMaterial3D).duplicate() as StandardMaterial3D
+				mi.set_surface_override_material(s, dup)
+				_hero_fade_mats.append(dup)
 	# Meshy characters carry a 0.01-scale Armature over a cm-unit skeleton, so the MESH AABB is
 	# unreliable (near-zero) — measure a rigged character by its skeleton REST bounds instead and
 	# fall back to the mesh AABB only for unrigged models.
@@ -3731,7 +3760,9 @@ func _relayout_ui() -> void:
 	# to know about a safe area. This is the element that was unreadable under the corner.
 	if stats != null and is_instance_valid(stats):
 		stats.position = Vector2(ml, mt)
-	var bar_y := mt + 100.0
+	# 124 not 100: the stats block runs three ~22px lines to ~118, so a 100px bar_y let the HP bar
+	# touch the "Inv:" descenders and read as a red text underline (gamefeel polish).
+	var bar_y := mt + 124.0
 	if _hp_bg != null and is_instance_valid(_hp_bg):
 		_hp_bg.position = Vector2(ml, bar_y)
 	if hp_bar != null and is_instance_valid(hp_bar):

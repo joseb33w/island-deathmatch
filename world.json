@@ -1,0 +1,14007 @@
+{
+ "mode": "chunk",
+ "title": "Island Deathmatch",
+ "grid": {
+  "cell_size": 16
+ },
+ "start_cell": [
+  0,
+  4
+ ],
+ "goal": {
+  "type": "reach_cell",
+  "target": [
+   7,
+   0
+  ]
+ },
+ "terrain": {
+  "amplitude": 7,
+  "frequency": 0.012,
+  "seed": 1177,
+  "octaves": 4,
+  "material": "grass",
+  "island": {
+   "radius": 168,
+   "shore": 70,
+   "depth": 12
+  }
+ },
+ "cells": [
+  {
+   "cell": [
+    -7,
+    -7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -5.84,
+      4.73
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    -7
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      6.84,
+      2.2
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -1.59,
+      -3.93
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -4.89,
+      1.64
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    -7
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      1.22,
+      3.92
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    -7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -1.42,
+      6.38
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      -1.05,
+      -4.57
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    -7
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      5.78,
+      -4.73
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    -7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      1.82,
+      -3.97
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      0.2,
+      -0.34
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -1,
+    -7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      1.21,
+      3.88
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      4.56,
+      -0.73
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      2.56,
+      6.16
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    0,
+    -7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      5.51,
+      1.78
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    1,
+    -7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      6.86,
+      -3.05
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    2,
+    -7
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -4.94,
+      5.63
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      6.99,
+      6.64
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -4.65,
+      2.1
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    3,
+    -7
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      4.68,
+      3.95
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      3.44,
+      -5.86
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      3.18,
+      -2.77
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    -7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      4.77,
+      6.38
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    -7
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -2.52,
+      6.49
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -3.33,
+      2.92
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    -7
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      5.8,
+      4.63
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -3.38,
+      4.64
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    -7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -0.72,
+      -4.58
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      1.03,
+      -5.81
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -0.69,
+      -3.08
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    -6
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      3.79,
+      3.82
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -5.48,
+      1.7
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      1.07,
+      1.96
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    -6
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -5.32,
+      4.71
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -6.49,
+      -2.33
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    -6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -0.55,
+      0.12
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -3.44,
+      3.09
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 10
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    -6
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -3.31,
+      2.88
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -2.02,
+      2.34
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      1.47,
+      -5.01
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 9
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    -6
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -6.31,
+      -5.52
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      5.93,
+      0.73
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    -6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -2.16,
+      -0.91
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -5.55,
+      -1.82
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      4.9,
+      0.84
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    -1,
+    -6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      6.65,
+      3.17
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -5.3,
+      -4.17
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 11
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    0,
+    -6
+   ],
+   "ground": "grass",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      6.3,
+      3.15
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -5.5,
+      -6.5
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    1,
+    -6
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -6.75,
+      1.63
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    2,
+    -6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      4.01,
+      -5.99
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 10
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "cell": [
+    3,
+    -6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      6.88,
+      6.21
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      2.11,
+      6.04
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 10
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    -6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      5.33,
+      3.83
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      2.75,
+      6.19
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      0.39,
+      3.16
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    -6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -1.29,
+      -4.29
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    -6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -6.86,
+      3.9
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      6.39,
+      3.32
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      1.18,
+      -0.7
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    -6
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      4.43,
+      0.16
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      4.82,
+      1.62
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      -6.46,
+      -3.17
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    -5
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -4.52,
+      -2.46
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    -5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      5.1,
+      0.46
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -3.0,
+      -4.95
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      2.14,
+      -2.45
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 11
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    -5
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    -5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      -4.8
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      -2.4
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      0.0
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      2.4
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    -5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -4.8,
+      -5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -2.4,
+      -5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      0.0,
+      -5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      2.4,
+      -5.5
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    -5
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -1,
+    -5
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    0,
+    -5
+   ],
+   "ground": "grass",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -4.8,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -2.4,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      0.0,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      2.4,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      5.0,
+      -5.0
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    1,
+    -5
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    2,
+    -5
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    3,
+    -5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -5.5,
+      -4.8
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -5.5,
+      -2.4
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -5.5,
+      0.0
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -5.5,
+      2.4
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    -5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      -4.8
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      -2.4
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      0.0
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      2.4
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      -5.0,
+      5.0
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    -5
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    -5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -0.13,
+      -4.4
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      3.15,
+      -2.47
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 9
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    -5
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      2.64,
+      0.2
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      -0.42,
+      0.26
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    -4
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -1.41,
+      2.07
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -0.12,
+      0.22
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -6.85,
+      2.77
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    -4
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -5.54,
+      -4.67
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 10
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    -4
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    -4
+   ],
+   "ground": "grass",
+   "landmark": {
+    "url": "props/q_farmbuild/TowerWindmill.glb",
+    "pos": [
+     0,
+     0
+    ]
+   },
+   "props": [
+    {
+     "url": "props/q_farmbuild/TowerWindmill.glb",
+     "pos": [
+      -5.5,
+      3.5
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/TowerWindmill.glb",
+     "pos": [
+      5.0,
+      -4.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      5.5,
+      5.5
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.6
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.6
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.6
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.6
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.6
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.6
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 24,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    -4
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Silo_House.glb",
+     "pos": [
+      -4.5,
+      -4.5
+     ],
+     "rot": 180
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 20,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    -4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Barn.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      -4.5,
+      -3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 26,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -1,
+    -4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Barn.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      -4.5,
+      3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 20,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    0,
+    -4
+   ],
+   "ground": "dirt",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Silo_House.glb",
+     "pos": [
+      5.8,
+      4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      -5.8,
+      3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 22,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 9
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ],
+   "populate": [
+    {
+     "set": [
+      "animals/farm_Cow.glb"
+     ],
+     "count": 2,
+     "vary": true,
+     "behaviour": "wander",
+     "radius": 6,
+     "speed": 1.0
+    }
+   ]
+  },
+  {
+   "cell": [
+    1,
+    -4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Silo_House.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      -4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 18,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    2,
+    -4
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Barn.glb",
+     "pos": [
+      -4.5,
+      -4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 20,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    3,
+    -4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Barn.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      -4.5,
+      3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 24,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    -4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Barn.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      -4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 26,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ],
+   "populate": [
+    {
+     "set": [
+      "animals/farm_Sheep.glb"
+     ],
+     "count": 4,
+     "vary": true,
+     "behaviour": "wander",
+     "radius": 6,
+     "speed": 1.0
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    -4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -5.5,
+      -4.8
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -5.5,
+      -2.4
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -5.5,
+      0.0
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -5.5,
+      2.4
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 11
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    -4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -2.36,
+      6.09
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      5.67,
+      -1.31
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      6.75,
+      2.64
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 11
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    -4
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      4.75,
+      -3.34
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      3.77,
+      5.8
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -2.34,
+      -0.71
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    -3
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -1.6,
+      5.72
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      4.71,
+      -2.62
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    -3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -0.49,
+      3.53
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -4.08,
+      4.47
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    -3
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    -3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      -4.5,
+      -3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 27,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ],
+   "populate": [
+    {
+     "set": [
+      "animals/farm_Cow.glb"
+     ],
+     "count": 3,
+     "vary": true,
+     "behaviour": "wander",
+     "radius": 6,
+     "speed": 1.0
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    -3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      -4.5,
+      4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 28,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 9
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    -3
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Silo_House.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      -4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 18,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -1,
+    -3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Silo_House.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      -4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 29,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 9
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    0,
+    -3
+   ],
+   "ground": "dirt",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Silo_House.glb",
+     "pos": [
+      -5.8,
+      -4.5
+     ],
+     "rot": 180
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      5.8,
+      -3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 20,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 9
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    1,
+    -3
+   ],
+   "ground": "grass",
+   "structures": [
+    {
+     "pos": [
+      -5.6,
+      -5.6
+     ],
+     "footprint": [
+      4.21,
+      4.61
+     ],
+     "floors": 4,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    },
+    {
+     "pos": [
+      -5.6,
+      5.6
+     ],
+     "footprint": [
+      4.35,
+      4.25
+     ],
+     "floors": 3,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/BigBarn.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      -4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 21,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    2,
+    -3
+   ],
+   "ground": "grass",
+   "structures": [
+    {
+     "pos": [
+      5.6,
+      -5.6
+     ],
+     "footprint": [
+      4.15,
+      4.83
+     ],
+     "floors": 3,
+     "profile": "vertical",
+     "cap": "gable",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Silo_House.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 180
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      -4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 27,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 9
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    3,
+    -3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      -4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 20,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    -3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      -4.5,
+      4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 29,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    -3
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    -3
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -6.5,
+      -4.92
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -3.34,
+      1.25
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      4.41,
+      -0.47
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 9
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    -3
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -2.08,
+      -3.57
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      1.2,
+      2.34
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      3.25,
+      -0.55
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    -2
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -0.14,
+      -6.5
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    -2
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      2.5,
+      -0.04
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      4.64,
+      5.42
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    -2
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 11
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    -2
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Silo_House.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      -4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 29,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    -2
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Barn.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      -4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 21,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    -2
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "x",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      5.8,
+      5.8
+     ],
+     "footprint": [
+      3.57,
+      3.82
+     ],
+     "floors": 12,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    },
+    {
+     "pos": [
+      5.8,
+      -5.8
+     ],
+     "footprint": [
+      3.58,
+      3.96
+     ],
+     "floors": 16,
+     "profile": "setback",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      -5.8,
+      -5.8
+     ],
+     "footprint": [
+      3.91,
+      3.68
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      -5.8,
+      5.8
+     ],
+     "footprint": [
+      3.56,
+      4.17
+     ],
+     "floors": 15,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    }
+   ],
+   "props": [
+    {
+     "kind": "plant",
+     "pos": [
+      4.25,
+      4.28
+     ]
+    },
+    {
+     "kind": "crate",
+     "pos": [
+      4.52,
+      5.01
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      -4.46,
+      -4.42
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    -1,
+    -2
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      0.0,
+      -5.8
+     ],
+     "footprint": [
+      3.89,
+      3.48
+     ],
+     "floors": 8,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    },
+    {
+     "pos": [
+      5.2,
+      -5.8
+     ],
+     "footprint": [
+      3.54,
+      3.84
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 270
+    },
+    {
+     "pos": [
+      -5.2,
+      5.8
+     ],
+     "footprint": [
+      3.71,
+      3.98
+     ],
+     "floors": 15,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 180
+    },
+    {
+     "pos": [
+      0.0,
+      5.8
+     ],
+     "footprint": [
+      3.68,
+      3.75
+     ],
+     "floors": 14,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    },
+    {
+     "pos": [
+      5.2,
+      5.8
+     ],
+     "footprint": [
+      3.78,
+      3.54
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    },
+    {
+     "pos": [
+      -5.2,
+      -5.8
+     ],
+     "footprint": [
+      3.83,
+      3.65
+     ],
+     "floors": 11,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    }
+   ],
+   "props": [
+    {
+     "kind": "barrel",
+     "pos": [
+      2.74,
+      4.8
+     ]
+    },
+    {
+     "kind": "crate",
+     "pos": [
+      3.81,
+      4.8
+     ]
+    },
+    {
+     "kind": "crate",
+     "pos": [
+      -6.03,
+      -4.8
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    0,
+    -2
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "x",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      5.8,
+      -5.8
+     ],
+     "footprint": [
+      3.71,
+      3.51
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    },
+    {
+     "pos": [
+      5.8,
+      5.8
+     ],
+     "footprint": [
+      3.83,
+      4.06
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    },
+    {
+     "pos": [
+      -5.8,
+      5.8
+     ],
+     "footprint": [
+      3.52,
+      3.44
+     ],
+     "floors": 16,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 270
+    },
+    {
+     "pos": [
+      -5.8,
+      -5.8
+     ],
+     "footprint": [
+      4.2,
+      4.05
+     ],
+     "floors": 8,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "kind": "barrel",
+     "pos": [
+      -4.99,
+      4.33
+     ]
+    },
+    {
+     "kind": "barrel",
+     "pos": [
+      4.47,
+      5.05
+     ]
+    },
+    {
+     "kind": "barrel",
+     "pos": [
+      -4.4,
+      -5.29
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      4.7,
+      -5.16
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    1,
+    -2
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      -5.2,
+      5.8
+     ],
+     "footprint": [
+      3.39,
+      3.68
+     ],
+     "floors": 15,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 270
+    },
+    {
+     "pos": [
+      5.2,
+      5.8
+     ],
+     "footprint": [
+      3.91,
+      3.47
+     ],
+     "floors": 14,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 90
+    },
+    {
+     "pos": [
+      5.2,
+      -5.8
+     ],
+     "footprint": [
+      3.2,
+      3.21
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    },
+    {
+     "pos": [
+      0.0,
+      -5.8
+     ],
+     "footprint": [
+      3.39,
+      3.54
+     ],
+     "floors": 16,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    },
+    {
+     "pos": [
+      0.0,
+      5.8
+     ],
+     "footprint": [
+      3.53,
+      3.51
+     ],
+     "floors": 15,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    },
+    {
+     "pos": [
+      -5.2,
+      -5.8
+     ],
+     "footprint": [
+      3.27,
+      3.24
+     ],
+     "floors": 12,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    }
+   ],
+   "props": [
+    {
+     "kind": "barrel",
+     "pos": [
+      3.35,
+      -4.8
+     ]
+    },
+    {
+     "kind": "tree",
+     "pos": [
+      -4.95,
+      -4.8
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    2,
+    -2
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "x",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      -5.8,
+      5.8
+     ],
+     "footprint": [
+      3.99,
+      3.66
+     ],
+     "floors": 12,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180,
+     "sign_light": {
+      "color": [
+       1.0,
+       0.25,
+       0.65
+      ],
+      "energy": 2.5,
+      "range": 20
+     }
+    },
+    {
+     "pos": [
+      -5.8,
+      -5.8
+     ],
+     "footprint": [
+      3.64,
+      4.03
+     ],
+     "floors": 8,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      5.8,
+      -5.8
+     ],
+     "footprint": [
+      3.63,
+      3.52
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      5.8,
+      5.8
+     ],
+     "footprint": [
+      4.17,
+      4.05
+     ],
+     "floors": 16,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    }
+   ],
+   "props": [
+    {
+     "kind": "plant",
+     "pos": [
+      -4.49,
+      4.24
+     ]
+    },
+    {
+     "kind": "tree",
+     "pos": [
+      4.73,
+      4.73
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    3,
+    -2
+   ],
+   "ground": "grass",
+   "structures": [
+    {
+     "pos": [
+      5.6,
+      -5.6
+     ],
+     "footprint": [
+      4.13,
+      4.39
+     ],
+     "floors": 4,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    },
+    {
+     "pos": [
+      5.6,
+      5.6
+     ],
+     "footprint": [
+      4.73,
+      4.06
+     ],
+     "floors": 2,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Barn.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 180
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      -4.5,
+      -3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 20,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    -2
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      -4.5,
+      -4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 23,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    -2
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -4.8,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -2.4,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      0.0,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      2.4,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      5.0,
+      -5.0
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    -2
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      0.15,
+      -6.14
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -2.83,
+      -2.91
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      3.59,
+      -5.67
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    -2
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -4.55,
+      -5.26
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -3.23,
+      -4.72
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    -1
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      6.97,
+      -5.39
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -2.99,
+      0.7
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    -1
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      1.2,
+      6.04
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    -1
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      -4.8
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      -2.4
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      0.0
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      2.4
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    -1
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/BigBarn.glb",
+     "pos": [
+      -4.5,
+      4.5
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      4.5,
+      3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 19,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    -1
+   ],
+   "ground": "grass",
+   "structures": [
+    {
+     "pos": [
+      -5.6,
+      -5.6
+     ],
+     "footprint": [
+      4.12,
+      4.3
+     ],
+     "floors": 3,
+     "profile": "vertical",
+     "cap": "gable",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      -4.5,
+      3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 28,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    -1
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      -5.8,
+      -5.2
+     ],
+     "footprint": [
+      3.42,
+      3.29
+     ],
+     "floors": 11,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      5.8,
+      0.0
+     ],
+     "footprint": [
+      3.68,
+      3.65
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    },
+    {
+     "pos": [
+      -5.8,
+      5.2
+     ],
+     "footprint": [
+      3.8,
+      3.24
+     ],
+     "floors": 13,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 180
+    },
+    {
+     "pos": [
+      5.8,
+      -5.2
+     ],
+     "footprint": [
+      3.94,
+      3.51
+     ],
+     "floors": 10,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    }
+   ],
+   "props": [
+    {
+     "kind": "crate",
+     "pos": [
+      -4.8,
+      1.71
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      -4.8,
+      -4.35
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      4.8,
+      4.21
+     ]
+    },
+    {
+     "kind": "barrel",
+     "pos": [
+      4.8,
+      -1.02
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    -1,
+    -1
+   ],
+   "ground": "concrete",
+   "structures": [
+    {
+     "pos": [
+      -4.4,
+      -4.4
+     ],
+     "footprint": [
+      7,
+      7
+     ],
+     "floors": 5,
+     "floor_height": 3.4,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0,
+     "interior": {
+      "door": "hinged",
+      "door_face": "e",
+      "rooms": 2,
+      "lit": true
+     }
+    },
+    {
+     "pos": [
+      4.4,
+      4.4
+     ],
+     "footprint": [
+      4.83,
+      5.02
+     ],
+     "floors": 12,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      4.4,
+      -4.4
+     ],
+     "footprint": [
+      4.89,
+      4.98
+     ],
+     "floors": 18,
+     "profile": "setback",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      -4.4,
+      4.4
+     ],
+     "footprint": [
+      5.15,
+      4.89
+     ],
+     "floors": 10,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    }
+   ],
+   "props": [
+    {
+     "kind": "barrel",
+     "pos": [
+      0.51,
+      -1.3
+     ]
+    },
+    {
+     "kind": "barrel",
+     "pos": [
+      -1.07,
+      -0.12
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      1.0,
+      -0.59
+     ]
+    },
+    {
+     "kind": "crate",
+     "pos": [
+      0.42,
+      -0.31
+     ]
+    }
+   ]
+  },
+  {
+   "cell": [
+    0,
+    -1
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      -5.8,
+      -5.2
+     ],
+     "footprint": [
+      3.32,
+      3.43
+     ],
+     "floors": 17,
+     "profile": "setback",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    },
+    {
+     "pos": [
+      5.8,
+      5.2
+     ],
+     "footprint": [
+      3.75,
+      3.84
+     ],
+     "floors": 16,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      5.8,
+      -5.2
+     ],
+     "footprint": [
+      3.28,
+      3.88
+     ],
+     "floors": 15,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      -5.8,
+      5.2
+     ],
+     "footprint": [
+      3.31,
+      3.47
+     ],
+     "floors": 13,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    }
+   ],
+   "props": [
+    {
+     "kind": "plant",
+     "pos": [
+      -4.8,
+      4.55
+     ]
+    },
+    {
+     "kind": "barrel",
+     "pos": [
+      4.8,
+      -2.93
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      4.8,
+      2.49
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    1,
+    -1
+   ],
+   "ground": "concrete",
+   "structures": [
+    {
+     "pos": [
+      -4.4,
+      -4.4
+     ],
+     "footprint": [
+      5.08,
+      4.72
+     ],
+     "floors": 13,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 180
+    },
+    {
+     "pos": [
+      4.4,
+      4.4
+     ],
+     "footprint": [
+      5.2,
+      5.25
+     ],
+     "floors": 12,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      4.4,
+      -4.4
+     ],
+     "footprint": [
+      7,
+      7
+     ],
+     "floors": 5,
+     "floor_height": 3.4,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0,
+     "sign_light": {
+      "color": [
+       1.0,
+       0.25,
+       0.65
+      ],
+      "energy": 2.5,
+      "range": 20
+     },
+     "interior": {
+      "door": "hinged",
+      "door_face": "w",
+      "rooms": 1,
+      "lit": true
+     }
+    },
+    {
+     "pos": [
+      -4.4,
+      4.4
+     ],
+     "footprint": [
+      4.91,
+      5.21
+     ],
+     "floors": 12,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    }
+   ],
+   "props": [
+    {
+     "kind": "crate",
+     "pos": [
+      -0.8,
+      0.39
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      0.82,
+      0.08
+     ]
+    },
+    {
+     "kind": "tree",
+     "pos": [
+      0.12,
+      -0.9
+     ]
+    }
+   ]
+  },
+  {
+   "cell": [
+    2,
+    -1
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      5.8,
+      0.0
+     ],
+     "footprint": [
+      3.49,
+      3.24
+     ],
+     "floors": 15,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    },
+    {
+     "pos": [
+      5.8,
+      -5.2
+     ],
+     "footprint": [
+      3.58,
+      3.78
+     ],
+     "floors": 8,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 90
+    },
+    {
+     "pos": [
+      5.8,
+      5.2
+     ],
+     "footprint": [
+      3.62,
+      3.42
+     ],
+     "floors": 14,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 90
+    },
+    {
+     "pos": [
+      -5.8,
+      5.2
+     ],
+     "footprint": [
+      3.83,
+      3.29
+     ],
+     "floors": 15,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      -5.8,
+      -5.2
+     ],
+     "footprint": [
+      3.66,
+      3.71
+     ],
+     "floors": 10,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "kind": "plant",
+     "pos": [
+      4.8,
+      -0.39
+     ]
+    },
+    {
+     "kind": "barrel",
+     "pos": [
+      4.8,
+      -0.87
+     ]
+    },
+    {
+     "kind": "crate",
+     "pos": [
+      -4.8,
+      -1.24
+     ]
+    },
+    {
+     "kind": "tree",
+     "pos": [
+      -4.8,
+      -6.83
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    3,
+    -1
+   ],
+   "ground": "grass",
+   "structures": [
+    {
+     "pos": [
+      5.6,
+      -5.6
+     ],
+     "footprint": [
+      4.81,
+      4.76
+     ],
+     "floors": 2,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 180
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      -4.5,
+      3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 21,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    -1
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/BigBarn.glb",
+     "pos": [
+      -4.5,
+      4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      4.5,
+      3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 30,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    -1
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    -1
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -1.45,
+      4.66
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -5.26,
+      -6.21
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    -1
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      0.92,
+      -5.53
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      0.02,
+      -2.61
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    0
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      1.76,
+      -5.69
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    0
+   ],
+   "ground": "rock",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      2.72,
+      -5.5
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -1.27,
+      5.5
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      1.52,
+      -6.06
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 9
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    0
+   ],
+   "ground": "grass",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 6
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    0
+   ],
+   "ground": "grass",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Barn.glb",
+     "pos": [
+      -4.5,
+      -5.8
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      4.5,
+      -7.3
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 23,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    0
+   ],
+   "ground": "grass",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      4.5,
+      5.8
+     ],
+     "rot": 180
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      -4.5,
+      5.8
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 28,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    0
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "x",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      -5.8,
+      5.8
+     ],
+     "footprint": [
+      3.99,
+      3.49
+     ],
+     "floors": 16,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 270
+    },
+    {
+     "pos": [
+      5.8,
+      -5.8
+     ],
+     "footprint": [
+      4.06,
+      3.56
+     ],
+     "floors": 14,
+     "profile": "setback",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      -5.8,
+      -5.8
+     ],
+     "footprint": [
+      3.82,
+      3.58
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 270
+    },
+    {
+     "pos": [
+      5.8,
+      5.8
+     ],
+     "footprint": [
+      3.96,
+      3.78
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    }
+   ],
+   "props": [
+    {
+     "kind": "barrel",
+     "pos": [
+      -4.4,
+      4.34
+     ]
+    },
+    {
+     "kind": "tree",
+     "pos": [
+      -4.24,
+      -4.8
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    -1,
+    0
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      0.0,
+      -5.8
+     ],
+     "footprint": [
+      3.3,
+      3.49
+     ],
+     "floors": 12,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      -5.2,
+      -5.8
+     ],
+     "footprint": [
+      3.44,
+      3.81
+     ],
+     "floors": 11,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    },
+    {
+     "pos": [
+      0.0,
+      5.8
+     ],
+     "footprint": [
+      3.79,
+      3.5
+     ],
+     "floors": 18,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 90
+    },
+    {
+     "pos": [
+      5.2,
+      -5.8
+     ],
+     "footprint": [
+      3.75,
+      3.55
+     ],
+     "floors": 18,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    },
+    {
+     "pos": [
+      -5.2,
+      5.8
+     ],
+     "footprint": [
+      3.92,
+      3.23
+     ],
+     "floors": 14,
+     "profile": "setback",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "kind": "crate",
+     "pos": [
+      -2.26,
+      4.8
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      4.93,
+      4.8
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    0,
+    0
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "x",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      -5.8,
+      5.8
+     ],
+     "footprint": [
+      4.13,
+      3.75
+     ],
+     "floors": 20,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 90
+    },
+    {
+     "pos": [
+      -5.8,
+      -5.8
+     ],
+     "footprint": [
+      4.01,
+      3.86
+     ],
+     "floors": 16,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    },
+    {
+     "pos": [
+      5.8,
+      5.8
+     ],
+     "footprint": [
+      3.78,
+      4.15
+     ],
+     "floors": 15,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    },
+    {
+     "pos": [
+      5.8,
+      -5.8
+     ],
+     "footprint": [
+      3.85,
+      3.66
+     ],
+     "floors": 14,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    }
+   ],
+   "props": [
+    {
+     "kind": "barrel",
+     "pos": [
+      -5.05,
+      5.09
+     ]
+    },
+    {
+     "kind": "tree",
+     "pos": [
+      4.57,
+      -4.41
+     ]
+    },
+    {
+     "kind": "tree",
+     "pos": [
+      -5.3,
+      4.92
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      -5.16,
+      4.29
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    1,
+    0
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      -5.2,
+      -5.8
+     ],
+     "footprint": [
+      3.84,
+      3.98
+     ],
+     "floors": 17,
+     "profile": "setback",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      -5.2,
+      5.8
+     ],
+     "footprint": [
+      3.31,
+      3.75
+     ],
+     "floors": 18,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      0.0,
+      -5.8
+     ],
+     "footprint": [
+      3.4,
+      3.51
+     ],
+     "floors": 10,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    },
+    {
+     "pos": [
+      0.0,
+      5.8
+     ],
+     "footprint": [
+      3.73,
+      3.85
+     ],
+     "floors": 17,
+     "profile": "setback",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    }
+   ],
+   "props": [
+    {
+     "kind": "crate",
+     "pos": [
+      -0.7,
+      -4.8
+     ]
+    },
+    {
+     "kind": "barrel",
+     "pos": [
+      -2.26,
+      4.8
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    2,
+    0
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "x",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      -5.8,
+      5.8
+     ],
+     "footprint": [
+      4.16,
+      4.14
+     ],
+     "floors": 17,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      5.8,
+      5.8
+     ],
+     "footprint": [
+      3.56,
+      4.03
+     ],
+     "floors": 10,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    },
+    {
+     "pos": [
+      5.8,
+      -5.8
+     ],
+     "footprint": [
+      3.52,
+      3.47
+     ],
+     "floors": 12,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 270
+    },
+    {
+     "pos": [
+      -5.8,
+      -5.8
+     ],
+     "footprint": [
+      3.51,
+      3.94
+     ],
+     "floors": 14,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    }
+   ],
+   "props": [
+    {
+     "kind": "tree",
+     "pos": [
+      4.69,
+      -4.59
+     ]
+    },
+    {
+     "kind": "crate",
+     "pos": [
+      -4.56,
+      -4.76
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    3,
+    0
+   ],
+   "ground": "dirt",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      -4.5,
+      5.8
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      4.5,
+      7.3
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 24,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 9
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    0
+   ],
+   "ground": "dirt",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      4.5,
+      -5.8
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      -4.5,
+      -5.8
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 20,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    0
+   ],
+   "ground": "grass",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -4.8,
+      -5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -2.4,
+      -5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      0.0,
+      -5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      2.4,
+      -5.5
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    0
+   ],
+   "ground": "rock",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -1.35,
+      -5.5
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 9
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    0
+   ],
+   "ground": "rock",
+   "structures": [
+    {
+     "pos": [
+      0,
+      -4.5
+     ],
+     "footprint": [
+      3,
+      3
+     ],
+     "height": 24,
+     "profile": "taper",
+     "cap": "spire",
+     "material": "steel",
+     "facade": "plain",
+     "sign_light": {
+      "color": [
+       1.0,
+       0.15,
+       0.1
+      ],
+      "energy": 3,
+      "range": 30
+     }
+    }
+   ],
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -5,
+      3
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      4,
+      4
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -4,
+      -6
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    1
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      5.76,
+      -5.71
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      0.34,
+      -5.63
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    1
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -2.0,
+      -6.36
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      6.79,
+      2.53
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      4.67,
+      -6.53
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 10
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    1
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      -4.8
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      -2.4
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      0.0
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      2.4
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    1
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      -4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 20,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    1
+   ],
+   "ground": "grass",
+   "structures": [
+    {
+     "pos": [
+      5.6,
+      -5.6
+     ],
+     "footprint": [
+      4.56,
+      4.31
+     ],
+     "floors": 3,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Barn.glb",
+     "pos": [
+      -4.5,
+      -4.5
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      4.5,
+      -3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 25,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    1
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      -5.7,
+      0.0
+     ],
+     "footprint": [
+      4.2,
+      6.5
+     ],
+     "floors": 5,
+     "floor_height": 3.2,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0,
+     "sign_light": {
+      "color": [
+       1.0,
+       0.65,
+       0.15
+      ],
+      "energy": 2.5,
+      "range": 20
+     },
+     "interior": {
+      "door": "hinged",
+      "door_face": "e",
+      "rooms": 1,
+      "lit": true
+     }
+    },
+    {
+     "pos": [
+      5.8,
+      -5.2
+     ],
+     "footprint": [
+      4.0,
+      3.65
+     ],
+     "floors": 11,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 180
+    },
+    {
+     "pos": [
+      -5.8,
+      5.2
+     ],
+     "footprint": [
+      3.31,
+      3.62
+     ],
+     "floors": 15,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 90
+    },
+    {
+     "pos": [
+      -5.8,
+      -5.2
+     ],
+     "footprint": [
+      3.4,
+      3.65
+     ],
+     "floors": 13,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 90
+    },
+    {
+     "pos": [
+      5.8,
+      0.0
+     ],
+     "footprint": [
+      3.67,
+      3.78
+     ],
+     "floors": 13,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 270
+    },
+    {
+     "pos": [
+      5.8,
+      5.2
+     ],
+     "footprint": [
+      3.65,
+      3.67
+     ],
+     "floors": 11,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    }
+   ],
+   "props": [
+    {
+     "kind": "tree",
+     "pos": [
+      -4.8,
+      -4.41
+     ]
+    },
+    {
+     "kind": "barrel",
+     "pos": [
+      -4.8,
+      -6.47
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    -1,
+    1
+   ],
+   "ground": "concrete",
+   "structures": [
+    {
+     "pos": [
+      -4.4,
+      4.4
+     ],
+     "footprint": [
+      4.76,
+      5.04
+     ],
+     "floors": 10,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      -4.4,
+      -4.4
+     ],
+     "footprint": [
+      4.89,
+      4.88
+     ],
+     "floors": 10,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    },
+    {
+     "pos": [
+      4.4,
+      4.4
+     ],
+     "footprint": [
+      4.71,
+      4.62
+     ],
+     "floors": 12,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      4.4,
+      -4.4
+     ],
+     "footprint": [
+      4.66,
+      4.88
+     ],
+     "floors": 17,
+     "profile": "setback",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "kind": "crate",
+     "pos": [
+      0.92,
+      0.14
+     ]
+    },
+    {
+     "kind": "barrel",
+     "pos": [
+      -0.32,
+      1.11
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      -0.16,
+      0.25
+     ]
+    },
+    {
+     "kind": "tree",
+     "pos": [
+      0.99,
+      -0.4
+     ]
+    }
+   ]
+  },
+  {
+   "cell": [
+    0,
+    1
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      5.8,
+      -5.2
+     ],
+     "footprint": [
+      3.41,
+      3.32
+     ],
+     "floors": 18,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      5.8,
+      0.0
+     ],
+     "footprint": [
+      3.6,
+      3.97
+     ],
+     "floors": 17,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      -5.8,
+      -5.2
+     ],
+     "footprint": [
+      3.57,
+      3.49
+     ],
+     "floors": 11,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 180
+    },
+    {
+     "pos": [
+      5.8,
+      5.2
+     ],
+     "footprint": [
+      3.27,
+      3.22
+     ],
+     "floors": 13,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    }
+   ],
+   "props": [
+    {
+     "kind": "tree",
+     "pos": [
+      -4.8,
+      -0.65
+     ]
+    },
+    {
+     "kind": "crate",
+     "pos": [
+      4.8,
+      -5.52
+     ]
+    },
+    {
+     "kind": "barrel",
+     "pos": [
+      4.8,
+      -5.39
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    1,
+    1
+   ],
+   "ground": "concrete",
+   "structures": [
+    {
+     "pos": [
+      0,
+      0
+     ],
+     "footprint": [
+      11,
+      11
+     ],
+     "floors": 13,
+     "height": 80,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0,
+     "window_glow": [
+      1.0,
+      0.9,
+      0.6
+     ],
+     "sign_light": {
+      "color": [
+       0.25,
+       0.85,
+       1.0
+      ],
+      "energy": 3,
+      "range": 26
+     },
+     "interior": {
+      "door": "hinged",
+      "door_face": "s",
+      "rooms": 1,
+      "lit": true
+     }
+    }
+   ],
+   "props": [
+    {
+     "kind": "plant",
+     "pos": [
+      -6.5,
+      -6.5
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      6.5,
+      -6.5
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      -6.5,
+      6.5
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      6.5,
+      6.5
+     ]
+    },
+    {
+     "kind": "crate",
+     "pos": [
+      -6.5,
+      0
+     ]
+    },
+    {
+     "kind": "barrel",
+     "pos": [
+      6.5,
+      0.8
+     ]
+    }
+   ]
+  },
+  {
+   "cell": [
+    2,
+    1
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      5.8,
+      -5.2
+     ],
+     "footprint": [
+      3.52,
+      3.8
+     ],
+     "floors": 8,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      -5.8,
+      5.2
+     ],
+     "footprint": [
+      3.37,
+      3.68
+     ],
+     "floors": 11,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    },
+    {
+     "pos": [
+      5.8,
+      0.0
+     ],
+     "footprint": [
+      3.71,
+      3.32
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    },
+    {
+     "pos": [
+      -5.8,
+      0.0
+     ],
+     "footprint": [
+      3.36,
+      3.52
+     ],
+     "floors": 11,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    },
+    {
+     "pos": [
+      5.8,
+      5.2
+     ],
+     "footprint": [
+      3.62,
+      3.94
+     ],
+     "floors": 16,
+     "profile": "setback",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 270
+    }
+   ],
+   "props": [
+    {
+     "kind": "tree",
+     "pos": [
+      -4.8,
+      3.55
+     ]
+    },
+    {
+     "kind": "barrel",
+     "pos": [
+      4.8,
+      1.6
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      4.8,
+      4.03
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    3,
+    1
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Barn.glb",
+     "pos": [
+      -4.5,
+      -4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      4.5,
+      -3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 25,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    1
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "url": "props/q_farmbuild/BigBarn.glb",
+     "pos": [
+      -4.5,
+      -4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      4.5,
+      -3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 21,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ],
+   "populate": [
+    {
+     "set": [
+      "animals/farm_Horse.glb"
+     ],
+     "count": 2,
+     "vary": true,
+     "behaviour": "wander",
+     "radius": 6,
+     "speed": 1.0
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    1
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -4.8,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -2.4,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      0.0,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      2.4,
+      5.5
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 11
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    1
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      2.04,
+      4.6
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    1
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      2.47,
+      -2.17
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      5.07,
+      4.03
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    2
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      5.93,
+      6.68
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    2
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -6.61,
+      4.96
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      0.1,
+      5.2
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -2.97,
+      -1.78
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 9
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    2
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    2
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/BigBarn.glb",
+     "pos": [
+      -4.5,
+      4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 26,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ],
+   "populate": [
+    {
+     "set": [
+      "animals/farm_Horse.glb"
+     ],
+     "count": 2,
+     "vary": true,
+     "behaviour": "wander",
+     "radius": 6,
+     "speed": 1.0
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    2
+   ],
+   "ground": "grass",
+   "structures": [
+    {
+     "pos": [
+      5.6,
+      -5.6
+     ],
+     "footprint": [
+      4.18,
+      4.68
+     ],
+     "floors": 2,
+     "profile": "vertical",
+     "cap": "gable",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    },
+    {
+     "pos": [
+      5.6,
+      5.6
+     ],
+     "footprint": [
+      4.88,
+      4.05
+     ],
+     "floors": 3,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Silo_House.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 180
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      -4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 25,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    2
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "x",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      5.8,
+      5.8
+     ],
+     "footprint": [
+      4.1,
+      3.61
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      -5.8,
+      -5.8
+     ],
+     "footprint": [
+      4.09,
+      3.75
+     ],
+     "floors": 8,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      5.8,
+      -5.8
+     ],
+     "footprint": [
+      4.16,
+      3.42
+     ],
+     "floors": 15,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    },
+    {
+     "pos": [
+      -5.8,
+      5.8
+     ],
+     "footprint": [
+      3.91,
+      3.82
+     ],
+     "floors": 16,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 180
+    }
+   ],
+   "props": [
+    {
+     "kind": "barrel",
+     "pos": [
+      4.66,
+      5.2
+     ]
+    },
+    {
+     "kind": "crate",
+     "pos": [
+      -5.05,
+      -4.77
+     ]
+    },
+    {
+     "kind": "tree",
+     "pos": [
+      4.67,
+      -4.87
+     ]
+    },
+    {
+     "kind": "tree",
+     "pos": [
+      4.3,
+      -4.43
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    -1,
+    2
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      -5.2,
+      5.8
+     ],
+     "footprint": [
+      3.52,
+      3.93
+     ],
+     "floors": 10,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 270
+    },
+    {
+     "pos": [
+      5.2,
+      -5.8
+     ],
+     "footprint": [
+      3.61,
+      3.23
+     ],
+     "floors": 14,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    },
+    {
+     "pos": [
+      0.0,
+      -5.8
+     ],
+     "footprint": [
+      3.46,
+      3.59
+     ],
+     "floors": 14,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 180
+    },
+    {
+     "pos": [
+      0.0,
+      5.8
+     ],
+     "footprint": [
+      3.65,
+      3.88
+     ],
+     "floors": 11,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    },
+    {
+     "pos": [
+      -5.2,
+      -5.8
+     ],
+     "footprint": [
+      3.83,
+      3.97
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "kind": "tree",
+     "pos": [
+      5.21,
+      4.8
+     ]
+    },
+    {
+     "kind": "tree",
+     "pos": [
+      5.92,
+      4.8
+     ]
+    },
+    {
+     "kind": "tree",
+     "pos": [
+      -6.96,
+      4.8
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      1.59,
+      4.8
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    0,
+    2
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "x",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      5.8,
+      5.8
+     ],
+     "footprint": [
+      4.09,
+      4.07
+     ],
+     "floors": 13,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      5.8,
+      -5.8
+     ],
+     "footprint": [
+      4.17,
+      3.72
+     ],
+     "floors": 14,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 0
+    },
+    {
+     "pos": [
+      -5.8,
+      5.8
+     ],
+     "footprint": [
+      3.51,
+      3.69
+     ],
+     "floors": 11,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      -5.8,
+      -5.8
+     ],
+     "footprint": [
+      4.12,
+      3.62
+     ],
+     "floors": 9,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 180
+    }
+   ],
+   "props": [
+    {
+     "kind": "plant",
+     "pos": [
+      -4.61,
+      -4.79
+     ]
+    },
+    {
+     "kind": "crate",
+     "pos": [
+      -5.34,
+      4.47
+     ]
+    },
+    {
+     "kind": "crate",
+     "pos": [
+      4.4,
+      -4.89
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    1,
+    2
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "ew",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      5.2,
+      -5.8
+     ],
+     "footprint": [
+      3.52,
+      3.74
+     ],
+     "floors": 13,
+     "profile": "setback",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    },
+    {
+     "pos": [
+      -5.2,
+      -5.8
+     ],
+     "footprint": [
+      3.33,
+      3.37
+     ],
+     "floors": 16,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 270
+    },
+    {
+     "pos": [
+      -5.2,
+      5.8
+     ],
+     "footprint": [
+      3.71,
+      3.46
+     ],
+     "floors": 12,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 270
+    },
+    {
+     "pos": [
+      0.0,
+      -5.8
+     ],
+     "footprint": [
+      3.61,
+      3.48
+     ],
+     "floors": 13,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 270
+    }
+   ],
+   "props": [
+    {
+     "kind": "barrel",
+     "pos": [
+      2.88,
+      -4.8
+     ]
+    },
+    {
+     "kind": "crate",
+     "pos": [
+      -1.95,
+      -4.8
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    2,
+    2
+   ],
+   "ground": "asphalt",
+   "roads": [
+    {
+     "dir": "x",
+     "width": 7
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      5.8,
+      5.8
+     ],
+     "footprint": [
+      3.45,
+      3.75
+     ],
+     "floors": 13,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      5.8,
+      -5.8
+     ],
+     "footprint": [
+      3.46,
+      3.65
+     ],
+     "floors": 11,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "glass",
+     "rot": 90
+    },
+    {
+     "pos": [
+      -5.8,
+      -5.8
+     ],
+     "footprint": [
+      4.04,
+      3.96
+     ],
+     "floors": 13,
+     "profile": "taper",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 180
+    },
+    {
+     "pos": [
+      -5.8,
+      5.8
+     ],
+     "footprint": [
+      4.07,
+      3.47
+     ],
+     "floors": 8,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    }
+   ],
+   "props": [
+    {
+     "kind": "plant",
+     "pos": [
+      4.72,
+      4.26
+     ]
+    },
+    {
+     "kind": "plant",
+     "pos": [
+      -4.87,
+      -4.9
+     ]
+    }
+   ],
+   "traffic": {
+    "set": [
+     "props/q_cars/NormalCar1.glb",
+     "props/q_cars/Taxi.glb",
+     "props/q_cars/SUV.glb"
+    ],
+    "count": 2,
+    "speed": 8
+   }
+  },
+  {
+   "cell": [
+    3,
+    2
+   ],
+   "ground": "grass",
+   "structures": [
+    {
+     "pos": [
+      -5.6,
+      -5.6
+     ],
+     "footprint": [
+      4.28,
+      4.55
+     ],
+     "floors": 3,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    },
+    {
+     "pos": [
+      5.6,
+      5.6
+     ],
+     "footprint": [
+      4.51,
+      4.01
+     ],
+     "floors": 4,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Silo_House.glb",
+     "pos": [
+      -4.5,
+      4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 19,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 9
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    2
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      -4.5,
+      4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 24,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    2
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      -5.0,
+      5.0
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    2
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -1.79,
+      3.98
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -4.19,
+      1.45
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      1.55,
+      1.23
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 9
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    2
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      2.41,
+      0.94
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      5.12,
+      -6.84
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      3.16,
+      3.61
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    3
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -5.79,
+      -1.8
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      1.37,
+      1.06
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -4.8,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -2.4,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      0.0,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      2.4,
+      5.5
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      -4.5,
+      -4.5
+     ],
+     "rot": 180
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 21,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 9
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    3
+   ],
+   "ground": "grass",
+   "structures": [
+    {
+     "pos": [
+      -5.6,
+      -5.6
+     ],
+     "footprint": [
+      4.69,
+      4.43
+     ],
+     "floors": 4,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Barn.glb",
+     "pos": [
+      -4.5,
+      4.5
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 23,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    3
+   ],
+   "ground": "grass",
+   "structures": [
+    {
+     "pos": [
+      -5.6,
+      -5.6
+     ],
+     "footprint": [
+      4.09,
+      4.75
+     ],
+     "floors": 4,
+     "profile": "vertical",
+     "cap": "gable",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 180
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      -4.5,
+      -3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 27,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -1,
+    3
+   ],
+   "ground": "grass",
+   "structures": [
+    {
+     "pos": [
+      5.6,
+      -5.6
+     ],
+     "footprint": [
+      4.49,
+      4.43
+     ],
+     "floors": 2,
+     "profile": "vertical",
+     "cap": "flat",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 90
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Barn.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 180
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      -4.5,
+      3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 25,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    0,
+    3
+   ],
+   "ground": "grass",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 6
+    }
+   ],
+   "structures": [
+    {
+     "pos": [
+      5.6,
+      -5.6
+     ],
+     "footprint": [
+      4.14,
+      4.55
+     ],
+     "floors": 3,
+     "profile": "vertical",
+     "cap": "gable",
+     "facade": "windows",
+     "material": "concrete",
+     "rot": 0
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/BigBarn.glb",
+     "pos": [
+      -5.8,
+      4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      5.8,
+      3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 19,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    1,
+    3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      -4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 25,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    2,
+    3
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      -4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 26,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 9
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    3,
+    3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/BigBarn.glb",
+     "pos": [
+      -4.5,
+      4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      4.5,
+      3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 22,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/BigBarn.glb",
+     "pos": [
+      -4.5,
+      -4.5
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 20,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    3
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      5.0,
+      5.0
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 10
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    3
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -3.04,
+      -5.34
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 10
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    3
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      0.24,
+      0.02
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      6.95,
+      -2.49
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    4
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -2.32,
+      -3.35
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -1.51,
+      -6.18
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 10
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    4
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Silo_House.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 180
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      -4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 28,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ],
+   "populate": [
+    {
+     "set": [
+      "animals/farm_Sheep.glb"
+     ],
+     "count": 3,
+     "vary": true,
+     "behaviour": "wander",
+     "radius": 6,
+     "speed": 1.0
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      -4.5,
+      -4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      4.5,
+      -6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 21,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Silo_House.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/WaterTower.glb",
+     "pos": [
+      -4.5,
+      -3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 20,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "tree",
+     "count": 4
+    }
+   ],
+   "populate": [
+    {
+     "set": [
+      "animals/farm_Sheep.glb"
+     ],
+     "count": 4,
+     "vary": true,
+     "behaviour": "wander",
+     "radius": 6,
+     "speed": 1.0
+    }
+   ]
+  },
+  {
+   "cell": [
+    -1,
+    4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      -4.5,
+      4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      4.5,
+      3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 25,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    0,
+    4
+   ],
+   "ground": "grass",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      5.8,
+      -5.5
+     ],
+     "rot": 270
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.4,
+      -6.0
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.4,
+      -3.6
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.4,
+      -1.2
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.4,
+      1.2
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.4,
+      3.6
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.4,
+      6.0
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "plant",
+     "count": 12,
+     "collider": false
+    }
+   ]
+  },
+  {
+   "cell": [
+    1,
+    4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/BigBarn.glb",
+     "pos": [
+      -4.5,
+      4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 21,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 9
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    2,
+    4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      -4.5,
+      3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 24,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 9
+    },
+    {
+     "kind": "tree",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    3,
+    4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      4.5,
+      -4.5
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Silo.glb",
+     "pos": [
+      -4.5,
+      -3.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 19,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ],
+   "populate": [
+    {
+     "set": [
+      "animals/farm_Cow.glb"
+     ],
+     "count": 3,
+     "vary": true,
+     "behaviour": "wander",
+     "radius": 6,
+     "speed": 1.0
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    4
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "url": "props/q_farmbuild/OpenBarn.glb",
+     "pos": [
+      4.5,
+      4.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Windmill.glb",
+     "pos": [
+      -4.5,
+      6.0
+     ]
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -6.0,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      -1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      1.2,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      3.6,
+      -6.4
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence.glb",
+     "pos": [
+      6.0,
+      -6.4
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "plant",
+     "count": 18,
+     "collider": false
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "tree",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -5.5,
+      -4.8
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -5.5,
+      -2.4
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -5.5,
+      0.0
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -5.5,
+      2.4
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    4
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -5.89,
+      0.5
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      1.44,
+      -1.77
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    4
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      0.14,
+      -6.7
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      2.19,
+      0.24
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      -0.13,
+      6.04
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      1.86,
+      3.09
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      2.53,
+      3.42
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      3.19,
+      6.03
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      4.66,
+      -5.04
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    5
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 11
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    5
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -4.8,
+      -5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -2.4,
+      -5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      0.0,
+      -5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      2.4,
+      -5.5
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -4.8,
+      -5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -2.4,
+      -5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      0.0,
+      -5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      2.4,
+      -5.5
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 11
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -1,
+    5
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    0,
+    5
+   ],
+   "ground": "grass",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      -4.8
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      -2.4
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      0.0
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      2.4
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      -5.0,
+      -5.0
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    1,
+    5
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    2,
+    5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -4.8,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -2.4,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      0.0,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      2.4,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/SmallBarn.glb",
+     "pos": [
+      -5.0,
+      5.0
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    3,
+    5
+   ],
+   "ground": "grass",
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 11
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      -4.8
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      -2.4
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      0.0
+     ],
+     "rot": 90
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      5.5,
+      2.4
+     ],
+     "rot": 90
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -4.8,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      -2.4,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      0.0,
+      5.5
+     ],
+     "rot": 0
+    },
+    {
+     "url": "props/q_farmbuild/Fence2.glb",
+     "pos": [
+      2.4,
+      5.5
+     ],
+     "rot": 0
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    5
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      2.23,
+      -0.98
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -2.81,
+      -5.17
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    5
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      1.82,
+      1.52
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      -5.34,
+      2.64
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      1.47,
+      -6.59
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    6
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      2.87,
+      -4.06
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      1.19,
+      0.31
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      3.46,
+      0.48
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -5.54,
+      6.89
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      1.43,
+      -5.24
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 10
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    6
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -1.98,
+      -5.3
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      2.15,
+      5.73
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      4.32,
+      2.88
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -4.38,
+      4.05
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      5.4,
+      4.48
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    6
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      2.35,
+      -6.56
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -4.59,
+      -4.92
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -1,
+    6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      1.91,
+      0.68
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -2.55,
+      3.82
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      1.9,
+      -5.08
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 9
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    0,
+    6
+   ],
+   "ground": "rock",
+   "roads": [
+    {
+     "dir": "ns",
+     "width": 6
+    }
+   ],
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      -5.5,
+      0.22
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      -6.82,
+      2.48
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -4.22,
+      -6.32
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 12
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    1,
+    6
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      2.48,
+      -2.04
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      6.08,
+      0.65
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 10
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    2,
+    6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -6.07,
+      4.99
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      3.2,
+      6.24
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 6
+    }
+   ]
+  },
+  {
+   "cell": [
+    3,
+    6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -0.39,
+      -0.47
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -1.27,
+      6.48
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -2.06,
+      -5.84
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    6
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      0.56,
+      -5.32
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 10
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    6
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      1.85,
+      2.36
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      -6.29,
+      -4.55
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    6
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -0.52,
+      4.67
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 9
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 5
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    6
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      3.91,
+      6.97
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -2.24,
+      6.67
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      -0.11,
+      -4.92
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -7,
+    7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -2.96,
+      -0.01
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      6.63,
+      4.35
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -6,
+    7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -1.13,
+      5.64
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      0.29,
+      -5.74
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      0.24,
+      -2.13
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -5,
+    7
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "rock",
+     "pos": [
+      1.9,
+      0.22
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 6
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -4,
+    7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      0.01,
+      -1.82
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -5.75,
+      6.49
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -3,
+    7
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      5.23,
+      -4.41
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      6.07,
+      2.52
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      -0.56,
+      -4.81
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    -2,
+    7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      5.67,
+      -6.15
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      3.63,
+      6.38
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      6.89,
+      -5.66
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    -1,
+    7
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      0.82,
+      5.5
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      4.38,
+      -3.23
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 6
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    0,
+    7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      5.17,
+      1.64
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -2.57,
+      -6.11
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    1,
+    7
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      0.21,
+      2.61
+     ]
+    },
+    {
+     "kind": "rock",
+     "pos": [
+      4.99,
+      -3.79
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      5.62,
+      5.99
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 8
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    2,
+    7
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      5.38,
+      5.04
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      6.56,
+      -3.4
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 7
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    3,
+    7
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      4.59,
+      5.58
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      3.52,
+      1.95
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    4,
+    7
+   ],
+   "ground": "grass",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -1.85,
+      0.06
+     ]
+    },
+    {
+     "kind": "log",
+     "pos": [
+      -2.32,
+      3.7
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -1.67,
+      -5.18
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 4
+    },
+    {
+     "kind": "rock",
+     "count": 9
+    },
+    {
+     "kind": "bush",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "cell": [
+    5,
+    7
+   ],
+   "ground": "rock",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      5.87,
+      6.35
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      -5.13,
+      -3.65
+     ]
+    },
+    {
+     "kind": "stump",
+     "pos": [
+      2.15,
+      -4.64
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 5
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "cell": [
+    6,
+    7
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "stump",
+     "pos": [
+      -1.06,
+      2.95
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 5
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 4
+    }
+   ]
+  },
+  {
+   "cell": [
+    7,
+    7
+   ],
+   "ground": "dirt",
+   "props": [
+    {
+     "kind": "log",
+     "pos": [
+      -1.75,
+      -6.05
+     ]
+    }
+   ],
+   "scatter": [
+    {
+     "kind": "tree",
+     "count": 8
+    },
+    {
+     "kind": "rock",
+     "count": 7
+    },
+    {
+     "kind": "bush",
+     "count": 2
+    }
+   ]
+  }
+ ],
+ "hero_model": "characters/kk_Ranger.glb",
+ "character_source": "library-fallback: Meshy not provisioned this session (free tier) - KayKit Ranger (Rig_Medium, engine-retargeted clips) as player/peer avatar",
+ "multiplayer": {
+  "enabled": true,
+  "max_players": 16,
+  "supabase_url": "https://xhhmxabftbyxrirvvihn.supabase.co",
+  "supabase_anon_key": "sb_publishable_NZHoIxqqpSvVBP8MrLHCYA_gmg1AbN-"
+ },
+ "weapons": {
+  "scout_rifle": {
+   "name": "Scout Rifle",
+   "kind": "ranged",
+   "damage": 34,
+   "rate": 2.2,
+   "range": 34.0,
+   "projectile": {
+    "speed": 42.0,
+    "arc": false
+   },
+   "model": "parametric:rifle"
+  }
+ },
+ "start_weapon": "scout_rifle",
+ "sky": {
+  "loop": true,
+  "cycle": [
+   {
+    "time": "day",
+    "weather": "clear",
+    "seconds": 150
+   },
+   {
+    "time": "sunset",
+    "weather": "clear",
+    "seconds": 35
+   },
+   {
+    "time": "night",
+    "weather": "clear",
+    "seconds": 110
+   },
+   {
+    "time": "sunrise",
+    "weather": "clear",
+    "seconds": 35
+   }
+  ]
+ },
+ "water": {
+  "level": -6.0,
+  "depth": 6,
+  "shallow": [
+   0.22,
+   0.5,
+   0.55
+  ],
+  "deep": [
+   0.03,
+   0.12,
+   0.25
+  ],
+  "wave_amp": 0.22
+ },
+ "vehicles": [
+  {
+   "pos": [
+    5,
+    52
+   ],
+   "profile": "car",
+   "name": "Sedan",
+   "color": [
+    0.75,
+    0.2,
+    0.15
+   ]
+  },
+  {
+   "pos": [
+    -5,
+    -52
+   ],
+   "profile": "car",
+   "name": "Coupe",
+   "color": [
+    0.15,
+    0.35,
+    0.75
+   ]
+  }
+ ],
+ "regions": [
+  {
+   "name": "Downtown",
+   "center": [
+    0,
+    0
+   ],
+   "radius": 42,
+   "ambient": "town_crowd"
+  },
+  {
+   "name": "Windmill Farms",
+   "center": [
+    -64,
+    -64
+   ],
+   "radius": 40,
+   "ambient": "auto_isle"
+  },
+  {
+   "name": "Watchtower Ridge",
+   "center": [
+    112,
+    0
+   ],
+   "radius": 36,
+   "ambient": "auto_isle"
+  }
+ ],
+ "vars": {
+  "kills": {
+   "init": 0,
+   "scope": "player"
+  },
+  "deaths": {
+   "init": 0,
+   "scope": "player"
+  }
+ },
+ "rules": [
+  {
+   "id": "welcome",
+   "when": {
+    "event": "start"
+   },
+   "then": [
+    {
+     "toast": "ISLAND DEATHMATCH - 16-player PvP. Hostiles show on your minimap."
+    },
+    {
+     "subtitle": {
+      "text": "Left: move joystick  |  Right: drag to look  |  ATTACK to fire",
+      "hold": 8
+     }
+    },
+    {
+     "ambient": "wind_real"
+    }
+   ]
+  },
+  {
+   "id": "score",
+   "when": {
+    "event": "player_killed"
+   },
+   "then": [
+    {
+     "add": "kills",
+     "value": 1
+    },
+    {
+     "toast": "FRAG! Total: {kills}"
+    },
+    {
+     "sound": "hit"
+    }
+   ]
+  },
+  {
+   "id": "muzzle",
+   "when": {
+    "event": "weapon_fired"
+   },
+   "then": [
+    {
+     "shake": 0.08
+    }
+   ]
+  },
+  {
+   "id": "hitfx",
+   "when": {
+    "event": "hit_by_player"
+   },
+   "then": [
+    {
+     "shake": 0.25
+    },
+    {
+     "sound": "hurt"
+    }
+   ]
+  },
+  {
+   "id": "down",
+   "when": {
+    "event": "player_died"
+   },
+   "then": [
+    {
+     "add": "deaths",
+     "value": 1
+    },
+    {
+     "sound": "death"
+    },
+    {
+     "toast": "Fragged - respawning... (deaths: {deaths})"
+    },
+    {
+     "respawn": true
+    }
+   ]
+  }
+ ],
+ "hud": [
+  {
+   "bind": "kills",
+   "format": "int",
+   "pos": "top_center",
+   "label": "FRAGS"
+  }
+ ],
+ "director": {
+  "hide_hud": [
+   "stable",
+   "weapon",
+   "potion"
+  ],
+  "music": {
+   "default": "battle_pursuit"
+  },
+  "ambient_auto": {
+   "auto_isle": {
+    "day": "wind_real",
+    "night": "night_crickets"
+   }
+  }
+ }
+}

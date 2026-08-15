@@ -1,0 +1,74 @@
+{
+  "edits": [
+    {
+      "cell": [1, 1],
+      "index": 0,
+      "structure": {
+        "pos": [0, 0],
+        "footprint": [11, 11],
+        "floors": 13,
+        "height": 80,
+        "profile": "vertical",
+        "cap": "flat",
+        "facade": "windows",
+        "material": "glass",
+        "rot": 0,
+        "window_glow": [1.0, 0.9, 0.6],
+        "sign_light": { "color": [0.25, 0.85, 1.0], "energy": 3, "range": 26 },
+        "interior": { "door": "hinged", "door_face": "s", "rooms": 1, "lit": true }
+      }
+    },
+    {
+      "cell": [1, -1],
+      "index": 2,
+      "structure": {
+        "pos": [4.4, -4.4],
+        "footprint": [7, 7],
+        "floors": 5,
+        "floor_height": 3.4,
+        "profile": "vertical",
+        "cap": "flat",
+        "facade": "windows",
+        "material": "concrete",
+        "rot": 0,
+        "sign_light": { "color": [1.0, 0.25, 0.65], "energy": 2.5, "range": 20 },
+        "interior": { "door": "hinged", "door_face": "w", "rooms": 1, "lit": true }
+      }
+    },
+    {
+      "cell": [-2, 1],
+      "index": 0,
+      "structure": {
+        "pos": [-5.7, 0.0],
+        "footprint": [4.2, 6.5],
+        "floors": 5,
+        "floor_height": 3.2,
+        "profile": "vertical",
+        "cap": "flat",
+        "facade": "windows",
+        "material": "glass",
+        "rot": 0,
+        "sign_light": { "color": [1.0, 0.65, 0.15], "energy": 2.5, "range": 20 },
+        "interior": { "door": "hinged", "door_face": "e", "rooms": 1, "lit": true }
+      }
+    },
+    {
+      "cell": [-1, -1],
+      "index": 0,
+      "structure": {
+        "pos": [-4.4, -4.4],
+        "footprint": [7, 7],
+        "floors": 5,
+        "floor_height": 3.4,
+        "profile": "vertical",
+        "cap": "flat",
+        "facade": "windows",
+        "material": "concrete",
+        "rot": 0,
+        "interior": { "door": "hinged", "door_face": "e", "rooms": 2, "lit": true }
+      }
+    }
+  ],
+  "neighbor_adjustments": [],
+  "notes": "All 4 enterables are profile:vertical with reconciled storeys (>=2.6m) and stair-ramp slopes 35-37deg (engine ramp collider walkable, <45deg). HERO [1,1]: flipped taper->vertical, footprint 9->11, floors 13 x 6.15m via explicit height:80 — keeps the exact 80m tallest-on-island silhouette, halves stair/slab node count vs 25 storeys, grand-lobby storeys, fully climbable to the top floor; door_face s onto the plaza (1.0m clearance to all 6 props). RELOCATION: nomination #2 (cell [2,-2] idx0) sits on an x-road cell whose free quadrants are only 4.5x4.5m — any multi-floor interior there produces a >45deg (unwalkable) stair ramp, so it CANNOT be reconciled by resizing; the pink-neon bar enterable moved to cell [1,-1] idx2 (same NE city quadrant, road-free block cell, 7x7, door_face w onto the block courtyard) and [2,-2] idx0 is left untouched/solid (it keeps its pink sign_light — delete one sign if the duplicate neon bothers you). #3 stays in its nominated cell as an elongated road-front slab 4.2x6.5 (the ns-road strip caps depth at 4.5m so 8x8 is impossible; cavity 3.6x5.9 passes all engine gates, door_face e onto the avenue, 0.1m road margin, 0.13-0.14m gaps to idx2/idx3 — no neighbor changes needed). #4 grown 5.4->7x7 in its road-free block, door_face e onto the prop courtyard, rooms:2 for CQB cover. All rot:0 (door_face is pre-rot local; originals had rot 90/180 which would swap footprints onto roads). VERIFY: (1) engine auto-adds a 3rd mid-tower OmniLight when floors>=6 — only the hero (13) trips this, exceeding the 2-light note by engine design; (2) enterable floors kept <=5 elsewhere so each gets exactly 2 lights; (3) _interior_spec strips any 'glow' key, so the hero climb relies on the lining emissive + 3 lights — playtest that mid-tower storeys aren't too dark; (4) rerun the architect's overlap/road self-check after merge (my tightest margins: 0.1m to the [-2,1] road strip, 0.125m structure gaps)."
+}

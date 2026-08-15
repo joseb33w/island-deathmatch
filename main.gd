@@ -3269,6 +3269,15 @@ func _make_remote_avatar() -> Node3D:
 	# Seat it the same way the local hero is seated, or peers stand hip-deep in the floor: character
 	# GLB origins sit at the hips, not the feet.
 	_seat_avatar(node)
+	# A clipless character (KayKit Rig_Medium) would otherwise T-POSE forever on every other screen —
+	# animation state is not synced, so give remotes a local idle loop the same way the hero gets one.
+	var ap := AnimRig._find_ap(node)
+	if ap == null or ap.get_animation_list().is_empty():
+		ap = AnimRig.attach(node, {"idle": "Idle_A", "walk": "Walking_A"}, ["idle", "walk"])
+	if ap != null and not ap.get_animation_list().is_empty():
+		var clip := "idle" if ap.has_animation("idle") else String(ap.get_animation_list()[0])
+		ap.play(clip)
+		ap.seek(randf() * 2.0, true)   # desync so a room of peers doesn't idle in lockstep
 	return node
 
 

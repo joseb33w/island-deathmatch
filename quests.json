@@ -1,0 +1,36 @@
+{
+  "quests": [
+    {
+      "id": "clear_dungeon",
+      "name": "Clear the Dungeon",
+      "auto_start": true,
+      "giver": "captain",
+      "steps": [
+        {
+          "id": "slay",
+          "objective": {
+            "type": "kill_count",
+            "target": "skeleton",
+            "count": 5
+          },
+          "desc": "Defeat the 5 skeletons"
+        },
+        {
+          "id": "key",
+          "objective": {
+            "type": "collect",
+            "target": "vault_key"
+          },
+          "desc": "Take the Vault Key from the chest"
+        }
+      ],
+      "rewards": {
+        "xp": 120,
+        "gold": 75
+      },
+      "on_complete_flags": [
+        "dungeon_cleared"
+      ]
+    }
+  ]
+}
